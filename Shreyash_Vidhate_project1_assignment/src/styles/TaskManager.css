@@ -1,0 +1,45 @@
+.task-manager {
+  padding: 20px;
+}
+
+.task-form input,
+.task-form select {
+  padding: 10px;
+  margin: 10px 0;
+  width: 300px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  margin: 10px 0;
+  background: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background: #c0392b;
+}
+
+button:focus {
+  outline: none;
+}

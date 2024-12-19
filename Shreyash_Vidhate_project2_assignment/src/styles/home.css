@@ -1,0 +1,25 @@
+.home {
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.home a {
+  font-size: 1.3rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.home a:hover {
+  text-decoration: underline;
+}

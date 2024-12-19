@@ -1,0 +1,72 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9068, #fd746c);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.auth-form {
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.auth-form input {
+  width: 90%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.auth-form button {
+  padding: 12px;
+  width: 97%;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #272626;
+}
+
+.auth-form .error {
+  color: #ff4b4b;
+  font-size: 0.9rem;
+  margin-top: -10px;
+}
+
+.auth-form .second-btn {
+  margin-top: 20px;
+}
+
+.auth-form .second-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.auth-form .second-btn a:hover {
+  color: #ff9068;
+}

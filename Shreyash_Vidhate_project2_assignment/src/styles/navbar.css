@@ -1,0 +1,52 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.main-heading {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+/* Nav Button Styling */
+.nav-btn {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  background-color: transparent; /* Matches Link background */
+  border: none; /* Remove default button border */
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0px;
+}
+
+.nav-btn:hover {
+  text-decoration: underline;
+}
+
+/* Ensure Links and Buttons Have Consistent Display */
+.nav-btn:link,
+.nav-btn:visited {
+  display: inline-block; /* Matches Link behavior */
+}
+
+/* Optional: Prevent Hover Flash for Buttons */
+.nav-btn:focus {
+  outline: none;
+}
+
+.out-btn{
+  margin-right: 20px;
+}

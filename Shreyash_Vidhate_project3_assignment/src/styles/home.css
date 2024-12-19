@@ -1,0 +1,12 @@
+.home {
+  text-align: center;
+  margin: 2rem;
+}
+
+.home h1 {
+  color: #3b82f6;
+}
+
+.home p {
+  color: #333;
+}

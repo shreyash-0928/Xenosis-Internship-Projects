@@ -1,0 +1,54 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-heading {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+}
+
+.main-btn {
+  width: 300px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.second-btn {
+  margin-top: 50px;
+}
+
+.span a {
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main-btn:hover {
+  background: #000;
+}
+
+.span a:hover {
+  background: #000;
+}
